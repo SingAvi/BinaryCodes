@@ -1,0 +1,276 @@
+html,*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    font-family: 'Nunito', sans-serif;
+    width: 80vw;
+    margin: 0 auto;
+    
+    height: 100vh;
+    
+
+}
+
+main{
+
+  
+    
+}
+
+nav{
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+   
+    flex-wrap: wrap;
+}
+
+.logo-container{
+
+    font-size: 26px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+  
+}
+
+.logo-container p{
+    font-size: 18px;
+   
+    background: -webkit-linear-gradient(180deg,#03bdaa,#2ABDEC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.logo{
+    margin: 8px;
+    width: 10%;
+
+}
+
+.nav-items-container{
+
+    width: 40%;
+    
+}
+
+.nav-items-ul{
+
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-item-li{
+
+    font-size: 16px;
+}
+
+.circle-div{
+
+   display: flex;
+    width: 30px;
+    height: 30px;
+   
+    
+}
+
+.circle-div img{
+
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.main-content{
+
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-around;
+
+}
+
+.aside-left{
+
+    width: 18%;
+}
+
+.whats-new-container{
+
+    
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.whats-new-head{
+
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: rgb(42, 42, 42);
+    padding: 4px;
+    padding-left: 8px;
+    background-color: aqua;
+}
+
+.whats-new-content{
+
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-size: 14px;
+    color: rgb(42, 42, 42);
+    padding: 16px;
+    padding-bottom: 0px;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+}
+
+.whats-new-content p{
+
+    
+    padding-bottom: 12px;
+   
+}
+
+.discover-more{
+    text-align: center;
+    padding-top: 8px;
+    font-weight: bold;
+    color: rgb(159, 159, 159);
+    border-top: 1px solid rgb(216, 216, 216);
+    cursor:pointer;
+}
+
+
+.main-mid{
+
+    width: 48%;
+    
+    
+}
+
+
+.aside-right{
+    width: 28%;
+  
+}
+
+
+.trending-topics-container
+{
+
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    margin-top: 1rem;
+
+}
+
+
+
+
+.trending-topics-head{
+
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: rgb(42, 42, 42);
+    padding: 4px;
+    padding-left: 8px;
+    background-color: aqua;
+}
+
+.trending-topics-content{
+
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-size: 12px;
+    color: rgb(42, 42, 42);
+    padding: 8px;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+}
+
+.trending-topics-content p{
+
+    padding-bottom: 4px ;
+    height: 30px;
+    padding-left: 6px;
+    font-style: italic;
+    font-weight: bolder;
+    color: rgb(115, 115, 115);
+    cursor:pointer;
+
+}
+
+.each-post-container{
+
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    margin-bottom: 16px;
+    padding: 12px;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+}
+
+.postee-details{
+
+    font-size: 14px;
+    
+}
+
+.post-detail-name{
+
+    font-weight: 600;
+    margin-bottom: 4px;
+
+}
+
+.post-detail-pro{
+    color: #828282;
+    font-size: 10px;
+    margin-bottom: 18px;
+}
+
+.post-content-container{
+
+    font-size: 14px;
+}
+
+.post-content-img{
+
+    width:100%;
+    height: 20%;
+}
